@@ -1,0 +1,39 @@
+{
+    "name": "Among Us V.0.2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "storyboard": "*",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.3.2",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.9.2",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.0.1",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.9",
+        "tag": "v1.2.9",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/2b200900459096720c107eba4cbfa0388ee2c1cd",
+        "target": "1.12.26",
+        "pxt": "6.2.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
